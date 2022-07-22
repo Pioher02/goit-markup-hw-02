@@ -4,22 +4,38 @@
     <title>Portafolio</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <header>
-      <p class="pagetitle">WebStudio</p>
+      <p class="page-title">WebStudio</p>
       <nav>
-        <a href="" class="link">Estudio</a>
+        <a href="./index.html" class="link">Estudio</a>
         <a href="./portfolio.html" class="link">Portafolio</a>
         <a href="" class="link">Contactos</a>
       </nav>
       <ul>
-        <li class="upcontacts">info@devstudio.com</li>
-        <li class="upcontacts">+52 55 5529 6000</li>
+        <li class="upcontacts">
+          <img
+            src="./images/sobre.jpg"
+            width="16"
+            alt="sobre"
+          />info@devstudio.com
+        </li>
+        <li class="upcontacts">
+          <img src="./images/teléfono_inteligente.jpg" width="10" />+52 55 5529
+          6000
+        </li>
       </ul>
     </header>
     <main>
-      <ul>
+      <ul class="pagefilter">
         <li><button type="button" class="button">Todo</button></li>
         <li><button type="button" class="button">Sitios-web</button></li>
         <li><button type="button" class="button">Aplicaciones</button></li>
@@ -33,7 +49,7 @@
           alt="Portatil con una pagina web abierta en la parte del equipo"
         />
         <figcaption>
-          <div class="phototitle">Tecnoduck</div>
+          <div class="photo-title">Tecnoduck</div>
           Sitio-web
         </figcaption>
       </figure>
@@ -44,9 +60,10 @@
           alt="Dos jugadores de baloncesto peleando por el balon"
         />
         <figcaption>
-          <div class="phototitle">
+          <div class="photo-title">
             Póster de Nueva Orleans vs Estrella Dorada
           </div>
+          Diseño
         </figcaption>
       </figure>
       <figure>
@@ -56,21 +73,21 @@
           alt="Logo de restaurante"
         />
         <figcaption>
-          <div class="phototitle">Restaurante Seafood</div>
+          <div class="photo-title">Restaurante Seafood</div>
           Aplicaciones
         </figcaption>
       </figure>
       <figure>
         <img src="./images/Audifonos.jpg" width="370" alt="audifonos de copa" />
         <figcaption>
-          <div class="phototitle">Proyecto Prime</div>
+          <div class="photo-title">Proyecto Prime</div>
           Marketing
         </figcaption>
       </figure>
       <figure>
         <img src="./images/Cajas.jpg" width="370" alt="dos cajas" />
         <figcaption>
-          <div class="phototitle">Proyecto Cajas</div>
+          <div class="photo-title">Proyecto Cajas</div>
           Aplicaciones
         </figcaption>
       </figure>
@@ -81,7 +98,7 @@
           alt="Pantalla de mac mostrando una pagina"
         />
         <figcaption>
-          <div class="phototitle">La inspiración no tiene límites</div>
+          <div class="photo-title">La inspiración no tiene límites</div>
           Sitio-web
         </figcaption>
       </figure>
@@ -92,7 +109,7 @@
           alt="Revista abierta"
         />
         <figcaption>
-          <div class="phototitle">Edición Limitada</div>
+          <div class="photo-title">Edición Limitada</div>
           Diseño
         </figcaption>
       </figure>
@@ -103,7 +120,7 @@
           alt="etiqueta de ropa escrita LAB EL TAG"
         />
         <figcaption>
-          <div class="phototitle">Proyecto LAB</div>
+          <div class="photo-title">Proyecto LAB</div>
           Marketing
         </figcaption>
       </figure>
@@ -114,19 +131,33 @@
           alt="Portatil con manos en el teclado"
         />
         <figcaption>
-          <div class="phototitle">Negocio en Crecimiento</div>
+          <div class="photo-title">Negocio en Crecimiento</div>
           Aplicaciones
         </figcaption>
       </figure>
     </main>
-    <footer>
-      <p class="pagetitle">WebStudio</p>
-      <address>
+    <footer class="last-part">
+      <p class="page-title">WebStudio</p>
+      <address class="last-information">
         Calz. Ticomán 500, Ciudad de México, CDMX, México
         <a href="info@example.com" class="downcontacts">info@example.com</a>
         <a href="Tel:+525555296000" class="downcontacts"> +52 55 5529 6000 </a>
       </address>
-      <p>ENCUENTRANOS EN</p>
+      <div class="findus">ENCUENTRENOS EN</div>
+      <nav>
+        <a href=""
+          ><img src="./images/instagram.jpg" width="20" alt="logo instagram"
+        /></a>
+        <a href=""
+          ><img src="./images/twitter.png" width="20" alt="logo twitter"
+        /></a>
+        <a href=""
+          ><img src="./images/facebook.png" width="20" alt="logo facebook"
+        /></a>
+        <a href=""
+          ><img src="./images/linkedin.jpg" width="20" alt="logo linkedin"
+        /></a>
+      </nav>
     </footer>
   </body>
 </html>
